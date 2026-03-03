@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to My App</h1>
+    
+    <!-- Added alt attribute (BUG FIX) -->
+    <img src="logo.png" alt="Application Logo">
+    
+    <!-- Removed inline styles and added a class (CODE QUALITY) -->
+    <div class="test-div">
+        This is a test div
+    </div>
+    
+    <!-- Used semantic HTML (CODE QUALITY) -->
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    
+    <!-- Added form labels for accessibility (CODE QUALITY) -->
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        
+        <button type="submit">Login</button>
+    </form>
+    
+    <script src="app.js"></script>
+</body>
+</html>
