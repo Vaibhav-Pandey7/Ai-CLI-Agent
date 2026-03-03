@@ -1,4 +1,3 @@
-/* Combined body styles (CODE QUALITY) */
 body {
     margin: 0;
     padding: 0;
@@ -6,17 +5,14 @@ body {
     background: white;
 }
 
-/* Removed invalid property (CSS FIX) */
 .header {
     display: flex;
 }
 
-/* Improved selector efficiency (CODE QUALITY) */
 header nav a {
     color: blue;
 }
 
-/* Added vendor prefixes (CSS FIX) */
 .box {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -25,18 +21,11 @@ header nav a {
     transition: all 0.3s;
 }
 
-/* Removed unused style (CODE QUALITY) */
-/* .never-used-class {
-    color: red;
-} */
-
-/* Improved color contrast (ACCESSIBILITY FIX) */
 .low-contrast {
     background: #eee;
-    color: #333; /* Changed to a darker color for better contrast */
+    color: #333;
 }
 
-/* Styles for the div that had inline styles in HTML (CODE QUALITY) */
 .test-div {
     color: red;
     font-size: 20px;
